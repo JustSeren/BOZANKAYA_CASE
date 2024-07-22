@@ -1,0 +1,17 @@
+BONUS QUESTİON
+Data set "FA 45 01 8B 13 08 00 00"
+X_BAT_TEMP:
+  start 0 and long is 8 bit
+  first 8 bit = FA Hexedecimal = 250 decimal  
+  (decimal×factor)+offset = (250 x 0.1 ) + 0 = 25.0 C 
+X_V_Max_CELL:
+  start 8 and long is 16 bit 
+  == 4501 hex = 17665 dec 
+  dec * factor + offset = 17665 * 0.01 + 0 = 176.65 V
+X_V_Bat_Tot: 
+ start 24 bit long 16 
+== 8813 hex = 35603 dec
+dec * fac + offset = 35603 * 0,1 + 0 = 3560.3 V
+
+X_N_Miss_SCL:
+0000 = 8 dec  => 8 * 1 + 0 = 8 
