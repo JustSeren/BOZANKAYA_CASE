@@ -1,2 +1,2 @@
 # BOZANKAYA_CASE
-Note: If you receive a "Failed to fetch temperature" error, it may be due to the limit on your API key for the weather app. If the number of requests exceeds the site's limit, the site will return this error.
+Note: If you encounter the error "Failed to fetch temperature," it is because my API key for the weather app has reached its request limit. When the request count exceeds the site’s limit, this error will be displayed.
